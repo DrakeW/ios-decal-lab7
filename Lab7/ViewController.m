@@ -56,5 +56,9 @@
         [self updatecalculationView];
     };
 }
+- (IBAction)sin:(UIButton *)sender {
+    [_Cbrain sinCalculationString];
+    [self updatecalculationView];
+}
 
 @end
